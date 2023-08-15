@@ -1,3 +1,5 @@
+//this file contains framer motion animations for the portfolio
+
 export const textVariant = (delay) => {
   return {
     hidden: {

@@ -5,7 +5,6 @@ import { logo, menu, close } from "../assets";
 import { styles } from "../styles";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -15,10 +14,11 @@ const Navbar = () => {
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive("");
             window.scrollTo(0, 0);
           }}
-        ></Link>
+        >
+          <img src={logo} alt="name-logo"></img>
+        </Link>
       </div>
     </nav>
   );

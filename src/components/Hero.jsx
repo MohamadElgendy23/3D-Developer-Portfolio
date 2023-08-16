@@ -10,10 +10,10 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div>
-            <h1 className={`${styles.heroHeadText} text-amber-400`}>
+            <h1 className={`${styles.heroHeadText} text-yellow-300`}>
               Hello, I am <span className="text-[#915eff]">Mohamad</span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-amber-400`}>
+            <p className={`${styles.heroSubText} mt-2 text-yellow-300`}>
               I am an aspiring{" "}
               <span className="text-[#915eff]">Full Stack Developer</span>{" "}
               skilled in both the frontend and backend. Lets team up and

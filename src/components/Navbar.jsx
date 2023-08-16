@@ -30,6 +30,7 @@ const Navbar = () => {
             return (
               <li
                 key={myInfo.id}
+                title={myInfo.title}
                 className={`${
                   currPageURL === myInfo.title ? "text-gray-600" : "text-white"
                 } hover:text-gray-600 cursor-pointer`}

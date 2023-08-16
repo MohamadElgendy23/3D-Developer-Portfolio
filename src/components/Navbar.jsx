@@ -21,9 +21,10 @@ const Navbar = () => {
           }}
         >
           <img
-            className="w-20 h-20 object-contain"
+            className="w-22 h-20 object-contain"
             src={"https://media-public.canva.com/b1_lw/MAEzQDb1_lw/1/s.png"}
             alt="mohamad-logo"
+            title="Welcome to Mohamad's Portfolio! Enjoy!"
           ></img>
         </Link>
       </div>

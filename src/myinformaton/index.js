@@ -13,7 +13,6 @@ import {
   redux,
   tailwind,
   nodejs,
-  python,
   mongodb,
   git,
   figma,
@@ -78,10 +77,6 @@ const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "Python",
-    icon: python,
   },
   {
     name: "React JS",

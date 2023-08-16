@@ -31,10 +31,8 @@ const Navbar = () => {
               <li
                 key={myInfo.id}
                 className={`${
-                  currPageURL === myInfo.title
-                    ? "text-white"
-                    : "text-yellow-300"
-                } hover:text-white hover:text-lg cursor-pointer`}
+                  currPageURL === myInfo.title ? "text-gray-600" : "text-white"
+                } hover:text-gray-600 cursor-pointer`}
                 onClick={() => {
                   setCurrPageURL(myInfo.title);
                 }}

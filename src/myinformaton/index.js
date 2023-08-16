@@ -1,3 +1,5 @@
+//this file contains information about me. this includes experience, skills, etc
+
 import {
   mobile,
   backend,

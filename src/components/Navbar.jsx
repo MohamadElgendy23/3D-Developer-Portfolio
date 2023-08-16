@@ -22,7 +22,7 @@ const Navbar = () => {
             className="relative left-7 w-20 object-contain"
             src={"https://media-public.canva.com/b1_lw/MAEzQDb1_lw/1/s.png"}
             alt="mohamad-logo"
-            title="Welcome to Mohamad's Portfolio! Enjoy!"
+            title="Welcome to Mohamad's 3D Developer Portfolio! Enjoy!"
           ></img>
         </Link>
         <ul className="relative right-10 list-none hidden sm:flex flex-row gap-10">
@@ -71,6 +71,7 @@ const Navbar = () => {
                   } hover:text-white hover:text-lg cursor-pointer`}
                   onClick={() => {
                     setCurrPageURL(myInfo.title);
+                    setToggle(!toggle);
                   }}
                 >
                   <a href={`${myInfo.id}`}>{myInfo.title}</a>

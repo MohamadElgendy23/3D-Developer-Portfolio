@@ -9,7 +9,7 @@ const ComputerScene = () => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={1} groundColor="black" />
+      <hemisphereLight intensity={1} groundColor="purple" />
       <pointLight intensity={1} />
       <spotLight
         position={[-10, -100, 10]}
@@ -20,7 +20,7 @@ const ComputerScene = () => {
       />
       <primitive
         object={computerObject.scene}
-        scale={3.5}
+        scale={4}
         position={[-55, -10, -15]}
         rotation={[-0.01, -0.2, -0.1]}
       ></primitive>

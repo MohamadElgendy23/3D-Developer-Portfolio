@@ -17,14 +17,13 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 0.1)}>
-        Hello! My name is{" "}
-        <span className="text-violet-500">Mohamad Elgendy</span> and I am a Full
-        Stack Developer. I am highly passionate about anything related to
-        programming and improving my skills. <br /> I am experienced in multiple
-        popular languages and frameworks such as JavaScript, TypeScript, Java,
-        C#, React.js, Node.js, and Three.js. <br /> I truly believe that with my
-        skills and personality, I can mesh well with any team to build software
-        that will last a lifetime!
+        My name is <span className="text-violet-500">Mohamad Elgendy</span> and
+        I am a Full Stack Developer. I am highly passionate about anything
+        related to programming and improving my skills. <br /> I am experienced
+        in multiple popular languages and frameworks such as JavaScript,
+        TypeScript, Java, C#, React.js, Node.js, and Three.js. <br /> I truly
+        believe that with my skills and personality, I can mesh well with any
+        team to build software that will last a lifetime!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {myInfo.map((info, index) => {

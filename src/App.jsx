@@ -18,8 +18,8 @@ const App = () => {
           <Navbar />
           <br /> <br /> <br /> <br /> <br />
           <Hero />
-          {/* <About />
-          <Experience />
+          <About />
+          {/* <Experience />
           <Tech />
           <Works /> */}
           <div className="relative z-0">

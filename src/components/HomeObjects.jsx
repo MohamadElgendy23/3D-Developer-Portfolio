@@ -15,7 +15,7 @@ const HomeObjects = () => {
                 Hello, I am <span className="text-[#915eff]">Mohamad</span>
               </h1>
               <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                I am an aspiring{" "}
+                I am a{" "}
                 <span className="text-[#915eff]">Full Stack Developer</span>{" "}
                 skilled in both the frontend and backend. Lets team up and
                 revolutionize the future!

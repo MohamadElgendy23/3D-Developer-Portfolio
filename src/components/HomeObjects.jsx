@@ -25,6 +25,12 @@ const HomeObjects = () => {
         </div>
       </section>
       <ComputersCanvas />
+
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href="/about">
+          <div className="w-[35px] h-[64px] rounded-full border-4 border-yellow-300 flex justify-center items-center pt-2 hover: cursor-pointer animate-bounce"></div>
+        </a>
+      </div>
     </>
   );
 };

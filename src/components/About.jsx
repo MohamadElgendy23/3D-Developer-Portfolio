@@ -11,6 +11,7 @@ const About = () => {
     <div className="bg-hero-pattern text-center">
       <motion.div>
         <p className={`${styles.sectionSubText} text-violet-500 -mt-20`}>
+          <br />
           About Me
         </p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
@@ -25,7 +26,6 @@ const About = () => {
         skills and personality, I can mesh well with any team to build software
         that will last a lifetime!
       </motion.p>
-
       <div className="mt-20 flex flex-wrap gap-10">
         {myInfo.map((info, index) => {
           <InformationCard key={index}>{info}</InformationCard>;
